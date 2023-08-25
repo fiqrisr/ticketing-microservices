@@ -47,10 +47,10 @@ importers:
         version: 2.0.42
       '@types/express':
         specifier: ^4.17.11
-        version: 4.17.11
+        version: 4.17.17
       '@types/jsonwebtoken':
         specifier: ^8.5.1
-        version: 8.5.1
+        version: 8.5.9
       '@types/node':
         specifier: ^18.7.18
         version: 18.7.18
@@ -71,7 +71,7 @@ importers:
         version: 3.1.1(express@4.17.1)
       express-validator:
         specifier: ^6.10.1
-        version: 6.10.1
+        version: 6.15.0
       jsonwebtoken:
         specifier: ^8.5.1
         version: 8.5.1
@@ -108,10 +108,10 @@ importers:
         version: 2.0.42
       '@types/express':
         specifier: ^4.17.11
-        version: 4.17.11
+        version: 4.17.17
       '@types/jsonwebtoken':
         specifier: ^8.5.1
-        version: 8.5.1
+        version: 8.5.9
       '@types/node':
         specifier: ^18.7.18
         version: 18.7.18
@@ -132,7 +132,7 @@ importers:
         version: 3.1.1(express@4.17.1)
       express-validator:
         specifier: ^6.10.1
-        version: 6.10.1
+        version: 6.15.0
       jsonwebtoken:
         specifier: ^8.5.1
         version: 8.5.1
@@ -172,10 +172,10 @@ importers:
         version: 2.0.42
       '@types/express':
         specifier: ^4.17.11
-        version: 4.17.11
+        version: 4.17.17
       '@types/jsonwebtoken':
         specifier: ^8.5.1
-        version: 8.5.1
+        version: 8.5.9
       '@types/node':
         specifier: ^18.7.18
         version: 18.7.18
@@ -196,7 +196,7 @@ importers:
         version: 3.1.1(express@4.17.1)
       express-validator:
         specifier: ^6.10.1
-        version: 6.10.1
+        version: 6.15.0
       jsonwebtoken:
         specifier: ^8.5.1
         version: 8.5.1
@@ -2072,15 +2072,6 @@ packages:
       '@types/send': 0.17.1
     dev: false
 
-  /@types/express@4.17.11:
-    resolution: {integrity: sha512-no+R6rW60JEc59977wIxreQVsIEOAYwgCqldrA/vkpCnbD7MqTefO97lmoBe4WE0F156bC4uLSP1XHDOySnChg==}
-    dependencies:
-      '@types/body-parser': 1.19.2
-      '@types/express-serve-static-core': 4.17.36
-      '@types/qs': 6.9.7
-      '@types/serve-static': 1.15.2
-    dev: false
-
   /@types/express@4.17.17:
     resolution: {integrity: sha512-Q4FmmuLGBG58btUnfS1c1r/NQdlp3DMfGDGig8WhfpA2YRUtEkxAjkZb0yvplJGYdF1fsQ81iMDcH24sSCNC/Q==}
     dependencies:
@@ -2126,12 +2117,6 @@ packages:
   /@types/json-schema@7.0.12:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
     dev: true
-
-  /@types/jsonwebtoken@8.5.1:
-    resolution: {integrity: sha512-rNAPdomlIUX0i0cg2+I+Q1wOUr531zHBQ+cV/28PJ39bSPKjahatZZ2LMuhiguETkCgLVzfruw/ZvNMNkKoSzw==}
-    dependencies:
-      '@types/node': 18.7.18
-    dev: false
 
   /@types/jsonwebtoken@8.5.9:
     resolution: {integrity: sha512-272FMnFGzAVMGtu9tkr29hRL6bZj4Zs1KZNeHLnKqAvp06tAIcarTMwOh8/8bz4FmKRcMxZhZNeUAQsNLoiPhg==}
@@ -3328,14 +3313,6 @@ packages:
       express: ^4.16.2
     dependencies:
       express: 4.17.1
-    dev: false
-
-  /express-validator@6.10.1:
-    resolution: {integrity: sha512-joYSJdkUyKMZ2gAUvyQNmqJ7x1vhrC/IHCKWauhKfoXNF83j65KnlqEEXXynBnJRd0QrNZ/aXw9uIhS6ptG0Cg==}
-    engines: {node: '>= 8.0.0'}
-    dependencies:
-      lodash: 4.17.21
-      validator: 13.11.0
     dev: false
 
   /express-validator@6.15.0:
