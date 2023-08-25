@@ -6,17 +6,22 @@
     "moduleResolution": "node",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "skipLibCheck": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "types": ["node"],
     "lib": ["es2019"],
     "declaration": true,
     "resolveJsonModule": true,
+    "removeComments": true,
     "baseUrl": ".",
     "rootDir": ".",
     "allowJs": true,
     "strict": true
   },
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules"],
+  "references": [
+    {
+      "path": "apps/auth"
+    }
+  ]
 }

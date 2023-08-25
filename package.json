@@ -1,17 +1,23 @@
 {
-	"name": "ticketing-microservices",
-	"private": true,
-	"description": "Monorepo for microservices course",
-	"keywords": [],
-	"packageManager": "pnpm@8.6.12",
-	"engines": {
-		"node": "18.17.1"
-	},
-	"dependencies": {
-		"@moonrepo/cli": "^1.12.0",
-		"prettier": "^3.0.2",
-		"source-map-support": "^0.5.21",
-		"tslib": "^2.6.2",
-		"typescript": "^5.2.2"
-	}
+  "name": "ticketing-microservices",
+  "private": true,
+  "description": "Monorepo for microservices course",
+  "keywords": [],
+  "packageManager": "pnpm@8.6.12",
+  "engines": {
+    "node": "18.17.1"
+  },
+  "dependencies": {
+    "@moonrepo/cli": "^1.12.0",
+    "prettier": "^3.0.2",
+    "source-map-support": "^0.5.21",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.3.0",
+    "typescript": "4.9.4"
+  }
 }

@@ -1,4 +1,6 @@
 {
   "trailingComma": "none",
-  "endOfLine": "lf"
+  "endOfLine": "lf",
+  "bracketSpacing": true,
+  "tabWidth": 2
 }
