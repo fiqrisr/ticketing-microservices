@@ -10,6 +10,6 @@ tasks:
     command: "rm -rf dist && tsc"
   test:
     env:
-      MONGOMS_DISTRO: 'ubuntu-22.04'
-      MONGOMS_VERSION: '6.0.8' 
+      MONGOMS_DISTRO: "ubuntu-22.04"
+      MONGOMS_VERSION: "6.0.8"
     command: "jest --watchAll --no-cache --testTimeout=100000000"
