@@ -1,0 +1,15 @@
+type: "application"
+language: "typescript"
+
+tasks:
+  dev:
+    command: "ts-node-dev --poll --respawn --transpile-only src/index.ts"
+  start:
+    command: "node dist/index.js"
+  build:
+    command: "rm -rf dist && tsc"
+  test:
+    env:
+      MONGOMS_DISTRO: "ubuntu-22.04"
+      MONGOMS_VERSION: "6.0.8"
+    command: "jest --watchAll --no-cache --testTimeout=100000000"
