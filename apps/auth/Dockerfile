@@ -1,8 +1,9 @@
 FROM node:16-alpine
 
 WORKDIR /app
+RUN npm install --global pnpm
 COPY package.json .
-RUN yarn install --prod
+RUN pnpm install --prod
 COPY . .
 
-CMD ["yarn", "dev"]
+CMD ["pnpm", "run", "dev"]

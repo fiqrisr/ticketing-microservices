@@ -1,0 +1,6 @@
+type: "library"
+language: "typescript"
+
+tasks:
+  build:
+    command: "pnpm del ./build/* && tsc"

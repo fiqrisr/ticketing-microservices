@@ -1,0 +1,41 @@
+apiVersion:  skaffold/v4beta6
+kind: Config
+manifests:
+  rawYaml:
+    - "./infra/k8s/*"
+build:
+  local:
+    push: false
+  artifacts:
+    - image: ticketing/auth
+      context: apps/auth
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: "src/**/*.ts"
+            dest: .
+    - image: ticketing/tickets
+      context: apps/tickets
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: "src/**/*.ts"
+            dest: .
+    - image: ticketing/orders
+      context: apps/orders
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: "src/**/*.ts"
+            dest: .
+    - image: ticketing/client
+      context: apps/client
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - src: "src/**/*.js"
+            dest: .
