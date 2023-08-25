@@ -1,0 +1,136 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@moonrepo/cli':
+        specifier: ^1.12.0
+        version: 1.12.0
+      prettier:
+        specifier: ^3.0.2
+        version: 3.0.2
+      source-map-support:
+        specifier: ^0.5.21
+        version: 0.5.21
+      tslib:
+        specifier: ^2.6.2
+        version: 2.6.2
+      typescript:
+        specifier: ^5.2.2
+        version: 5.2.2
+
+packages:
+
+  /@moonrepo/cli@1.12.0:
+    resolution: {integrity: sha512-mt0Sten+V79bK4rl2mTe/zF/zjTaM0cM5DEo+anIo1S2u6+zQ1Zw/cQNN4nAkE6J35ZTyg3Z6TO6urJtEpBamg==}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      detect-libc: 2.0.2
+    optionalDependencies:
+      '@moonrepo/core-linux-arm64-gnu': 1.12.0
+      '@moonrepo/core-linux-arm64-musl': 1.12.0
+      '@moonrepo/core-linux-x64-gnu': 1.12.0
+      '@moonrepo/core-linux-x64-musl': 1.12.0
+      '@moonrepo/core-macos-arm64': 1.12.0
+      '@moonrepo/core-macos-x64': 1.12.0
+      '@moonrepo/core-windows-x64-msvc': 1.12.0
+    dev: false
+
+  /@moonrepo/core-linux-arm64-gnu@1.12.0:
+    resolution: {integrity: sha512-qRX6pv+lLLGPqyO5RRctQE2U9aBfXRRKPLTqbNFjh2Z6FCiJM7C/yx8pdL5282RYrUbOkuGuyAPaU1kgppBmkQ==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@moonrepo/core-linux-arm64-musl@1.12.0:
+    resolution: {integrity: sha512-r4gls730ZG41ReHvLr3xxXLBagFwyQCcfFASt58YaHddJbIkKrraXddZffsTH6Csaxr8VEzZqxYbBjtW9sdjOA==}
+    cpu: [arm64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@moonrepo/core-linux-x64-gnu@1.12.0:
+    resolution: {integrity: sha512-LcwlU/FE+VI7r6Xk2D561sVT1uGrCTLWxllNuE3VY2XOMf+DeMBPekZo24wk25sHIT3zl6AsExueJAu03TtJUA==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@moonrepo/core-linux-x64-musl@1.12.0:
+    resolution: {integrity: sha512-lk3cVJMf43iv1CQlaExYAmL8NPy7wa1w2W67dQfzH+vCaIJD+GNniyJ8TskWeJ/+eqcIebxckbatdDNA8AAnVA==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@moonrepo/core-macos-arm64@1.12.0:
+    resolution: {integrity: sha512-sfL8Ds9z/WyXJ3V+fknqxvL0BrdtXV8Br8yiMJilWWjjEuYmEqKRGotxuhzt7P8a6GJo3bhYjisRFW2DLRlM6w==}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@moonrepo/core-macos-x64@1.12.0:
+    resolution: {integrity: sha512-hTFABm2KPa4ykDbJeP1knuIDhQrVHsaNXQOSkPQSzKbq7jNaP3kazfsGlCmSHiqTP4o5VJVZyawFQT1fKYrkfQ==}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@moonrepo/core-windows-x64-msvc@1.12.0:
+    resolution: {integrity: sha512-S1PxyJYb3pXyxhsfr2oNsiX4NEYwWwuosGpdYpCwm4+H6J+Wg2Iv5cDTBNOWRGpYUKlHWO3Bi7+tC3qvjWzEWQ==}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /buffer-from@1.1.2:
+    resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
+    dev: false
+
+  /detect-libc@2.0.2:
+    resolution: {integrity: sha512-UX6sGumvvqSaXgdKGUsgZWqcUyIXZ/vZTrlRT/iobiKhGL0zL4d3osHj3uqllWJK+i+sixDS/3COVEOFbupFyw==}
+    engines: {node: '>=8'}
+    dev: false
+
+  /prettier@3.0.2:
+    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: false
+
+  /source-map-support@0.5.21:
+    resolution: {integrity: sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==}
+    dependencies:
+      buffer-from: 1.1.2
+      source-map: 0.6.1
+    dev: false
+
+  /source-map@0.6.1:
+    resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
+  /tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+    dev: false
+
+  /typescript@5.2.2:
+    resolution: {integrity: sha512-mI4WrpHsbCIcwT9cF4FZvr80QUeKvsUsUvKDoR+X/7XHQH98xYD8YHZg7ANtz2GtZt/CBq2QJ0thkGJMHfqc1w==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+    dev: false

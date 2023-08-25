@@ -1,0 +1,17 @@
+{
+	"name": "ticketing-microservices",
+	"private": true,
+	"description": "Monorepo for microservices course",
+	"keywords": [],
+	"packageManager": "pnpm@8.6.12",
+	"engines": {
+		"node": "18.17.1"
+	},
+	"dependencies": {
+		"@moonrepo/cli": "^1.12.0",
+		"prettier": "^3.0.2",
+		"source-map-support": "^0.5.21",
+		"tslib": "^2.6.2",
+		"typescript": "^5.2.2"
+	}
+}
